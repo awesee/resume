@@ -2,8 +2,8 @@
 /*------*/
 @font-face {
   font-family: 'Open Sans Condensed';
-  src: url('font/opensans-condbold.eot');
-  src: url('font/opensans-condbold.eot?#iefix') format('embedded-opentype'), url('font/opensans-condbold.woff') format('woff'), url('font/opensans-condbold.ttf') format('truetype'), url('font/opensans-condbold.svg#font/opensans-condbold') format('svg');
+  src: url('../fonts/opensans-condbold.eot');
+  src: url('../fonts/opensans-condbold.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans-condbold.woff') format('woff'), url('../fonts/opensans-condbold.ttf') format('truetype'), url('../fonts/opensans-condbold.svg#font/opensans-condbold') format('svg');
 }
 body {
   background-color: #F6F8F7;
