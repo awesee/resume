@@ -1,280 +1,278 @@
-.wrapper{
+.wrapper {
     padding: 0;
 }
-ul{
+
+ul {
     padding: 0;
 }
-.nav-menu .nav-pills li a{
+
+.nav-menu .nav-pills li a {
     padding: 2px 10px;
 }
-.submit{
-    float:none;
-    
+
+.submit {
+    float: none;
 }
-.contact-form  {
-margin: 0 0 20px;
+
+.contact-form {
+    margin: 0 0 20px;
 }
-.exp-holder:before{
+
+.exp-holder:before {
     padding: 10px;
 }
-.contact-form i{
+
+.contact-form i {
     z-index: 100;
     top: 36px;
 }
 
-.contact-form input:not(.submit):focus, .contact-form textarea:focus{
+.contact-form input:not(.submit):focus, .contact-form textarea:focus {
     outline: none;
 }
-.contact-form input:not(.submit), .contact-form textarea{
-    float: none;
-padding: 5px 5px 5px 35px;
 
+.contact-form input:not(.submit), .contact-form textarea {
+    float: none;
+    padding: 5px 5px 5px 35px;
 }
-.map-holder{
+
+.map-holder {
     height: auto;
 }
-.exp-item{
+
+.exp-item {
     width: 99%;
 }
-.avatar{
+
+.avatar {
     width: 209px;
     height: 209px;
 }
-.box-holder .social-icons li{
+
+.box-holder .social-icons li {
     margin: 0 1px;
 }
-.box-holder .social-icons
-{
-    text-align: right!important;
 
+.box-holder .social-icons {
+    text-align: right !important;
 }
-.avatar img{
+
+.avatar img {
     width: 100%;
     height: 100%;
 }
-.round-rows{
+
+.round-rows {
     padding: 0;
 }
-.section-icon{
+
+.section-icon {
     width: 70px;
     height: 70px;
 }
-.cv-title .social-icons ul{
+
+.cv-title .social-icons ul {
     padding: 0;
 }
+
 .social-icons ul li {
-      padding: 7px;
+    padding: 7px;
 }
-.social-icons ul li a{
+
+.social-icons ul li a {
     width: 16px;
     height: 16px;
     margin: 0;
     text-align: center;
-   
 }
-@media all and (max-width:1200px) {
-    .nav-menu{
+
+@media all and (max-width: 1200px) {
+    .nav-menu {
         border-radius: 5px;
         -webkit-border-radius: 5px;
     }
-    .cv-title .social-icons ul{
+
+    .cv-title .social-icons ul {
         margin: 10px 0;
     }
 }
 
-   
-@media all and (min-width:1100px) {
-    .resume-holder{
+@media all and (min-width: 1100px) {
+    .resume-holder {
         width: 1024px;
     }
-
 }
 
-@media all and (min-width:760px) and (max-width:820px){
-    
-    
-
-    
+@media all and (min-width: 760px) and (max-width: 820px) {
     .box-holder:before {
-
         left: -7px;
-
         top: 18px;
-
     }
-  
+
     .section-icon {
         margin: 30px -8px 0;
     }
 
     .section-icon i {
         display: block;
-      
-      
     }
 
-  
-    .desc.text-holder{
+    .desc.text-holder {
         width: 95%;
     }
-    
 }
 
-@media all and (max-width:1199px){
-    .submit{
+@media all and (max-width: 1199px) {
+    .submit {
         width: 100%;
     }
-    .contact-form-holder{
+
+    .contact-form-holder {
         padding-bottom: 30px;
     }
+
     .section-icon {
-
-      margin: 30px auto 7px auto;
-text-align: center;
-
-    }
-    .box-holder:before{
-        display: none;
-    }
-    
-      .section-title .title {
-      
+        margin: 30px auto 7px auto;
         text-align: center;
     }
-    .head-title h1 {
 
+    .box-holder:before {
+        display: none;
+    }
+
+    .section-title .title {
+        text-align: center;
+    }
+
+    .head-title h1 {
         line-height: 33px;
     }
 
     .round-row {
         font-size: 14px;
     }
-    .head-title h3 {
 
+    .head-title h3 {
         font-size: 17px;
     }
-
 
     .nav-menu .nav-pills li a {
         color: #3B3B3B;
         font-size: 15px;
     }
+
     .social-icons ul li a {
         font-size: 14px;
     }
 
-
     .nav-menu li {
         margin: 0;
+    }
 
+    .avatar {
+        margin: 0 auto;
     }
-    .avatar{
-        margin:  0 auto;
-    }
+
     .box-holder .social-icons {
-text-align: center!important;
-margin: 10px 0;
+        text-align: center !important;
+        margin: 10px 0;
+    }
 }
-    
-}
-@media all and (max-width:768px) {
 
-  
-    .round-rows{
-      
+@media all and (max-width: 768px) {
+    .round-rows {
         margin-top: 20px;
         width: 100%;
     }
-    .round-row{
-          width: 100%;
+
+    .round-row {
+        width: 100%;
     }
-    
 }
 
-@media all and (max-width:620px){
- .avatar{
-        width:100px;
+@media all and (max-width: 620px) {
+    .avatar {
+        width: 100px;
         height: 100px;
         margin: 0 auto;
         margin-bottom: 20px;
     }
 }
-@media all and (min-width:801px){
-     
-    .nav.normal{
+
+@media all and (min-width: 801px) {
+    .nav.normal {
         display: block;
     }
-    .nav.dropdown{
+
+    .nav.dropdown {
         display: none;
     }
 }
-@media all and (min-width:1px) and (max-width:800px){
-    .nav.normal{
+
+@media all and (min-width: 1px) and (max-width: 800px) {
+    .nav.normal {
         display: none;
     }
-    .nav.dropdown{
+
+    .nav.dropdown {
         display: block;
     }
 }
-@media all and (min-width:400px) and (max-width:790px){
 
-    #about .desc{
+@media all and (min-width: 400px) and (max-width: 790px) {
+    #about .desc {
         margin-top: 10px;
     }
-.exp-item {
 
-    width: 99%;
+    .exp-item {
+        width: 99%;
+    }
 }
 
-
-
-}
-@media all and (min-width:300px) and (max-width:620px){
-    .about-desc{
+@media all and (min-width: 300px) and (max-width: 620px) {
+    .about-desc {
         margin-top: 10px;
     }
+
     .contact-form {
         margin: 0 auto 30px auto;
         width: 90%;
     }
-    .contact-form-holder{
+
+    .contact-form-holder {
         padding-bottom: 30px;
     }
+
     .section-icon {
         text-align: center;
         margin: 30px auto 0;
-
     }
 
-   
-    .box-holder:before{
+    .box-holder:before {
         content: "";
         position: absolute;
         left: 50%;
-margin-left: -10px;
+        margin-left: -10px;
         width: 0px;
         height: 0px;
         border-style: solid;
         border-width: 0 10px 10px 10px;
         border-color: transparent transparent #ffffff transparent;
-
-
         top: -10px;
     }
 
     .date-range {
         display: inline-block;
-       width: 100%;
-margin: 10px 0 10px;
+        width: 100%;
+        margin: 10px 0 10px;
     }
+
     section .box-holder {
         margin-left: 0px;
     }
-  
 
     .timeline-holder {
         margin-left: 6%;
-        
     }
 
     .skill label {
@@ -286,88 +284,81 @@ margin: 10px 0 10px;
     }
 
     .avatar {
-
         float: none;
         margin-left: auto;
         margin-right: auto;
-
     }
 
-   
-
-    .resume-holder{
-        width: 90%;
-        margin: 30px auto;
+    .resume-holder {
+        width: 96%;
+        margin: 10px auto;
     }
 
-  
+    .skills-holder {
+        text-align: center;
+    }
+}
 
+@media all and (min-width: 100px) and (max-width: 399px) {
+    .date-range {
+        margin-bottom: 10px
+    }
 
-    .skills-holder{
+    .exp-holder h3, .exp-holder h4 {
+        margin: 5px 0;
+    }
+
+    .section-icon {
+        margin: 30px auto 0;
         text-align: center;
     }
 
-
-
-}
-
-
-@media all and (min-width:100px) and (max-width:399px){
-
-.date-range {
-   
-   
-   margin-bottom: 10px
-}
-.exp-holder h3,.exp-holder h4{
-    margin: 5px 0;
-}
-.section-icon {
-    margin: 30px auto 0;
-    text-align: center;
-}
     .social-icons {
         margin: 10px 0 10px 0;
         text-align: center;
     }
+
     .exp-item h3 {
-   
-    font-size: 19px;
-}
-.exp-item h4 {
-  
-    font-size: 15px;
-}
-    .exp-item .text-holder{
+        font-size: 19px;
+    }
+
+    .exp-item h4 {
+        font-size: 15px;
+    }
+
+    .exp-item .text-holder {
         width: 90%;
     }
+
     .round-row {
         font-size: 15px;
     }
-    .contact-form{
+
+    .contact-form {
         margin: 0 auto 20px auto;
         width: 80%;
     }
-    .cv-title h1 {
 
+    .cv-title h1 {
         margin-bottom: 0 !important;
         padding-bottom: 15px;
         text-align: center;
     }
+
     .cv-title h3 {
         text-align: center;
-
     }
+
     .section-title h2 {
         font-size: 24px;
     }
 
     .resume-holder {
-        margin: 30px auto;
-        width: 82%;
+        margin: 0 auto;
+        width: 100%;
     }
 }
 
-@media all and (min-width:700px) and (max-width:790px){
+@media all and (min-width: 700px) and (max-width: 790px) {
 
 }
