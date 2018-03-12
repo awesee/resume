@@ -1,4 +1,4 @@
-# [My Resume](https://openset.github.io/Resume/)
+# [My Resume](https://openset.github.io/resume)
 
-# &copy;2017 Openset. All rights reserved.
+# &copy;2018 Openset. All rights reserved.
 
